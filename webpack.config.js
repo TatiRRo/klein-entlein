@@ -57,7 +57,7 @@ module.exports = {
 			chunkFilename: 'styles.css',
 		}),
 		new HtmlWebpackPlugin({
-			template: './src/pages/index.html',
+			template: './src/index.html',
 			filename: 'index.html',
 		}),
 		new DefinePlugin({
